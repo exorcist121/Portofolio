@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "PlusJakartaSans";
+  font-weight: 500;
+  font-style: normal;
+  src: local("PlusJakartaSans Medium"),
+    local("PlusJakartaSans-Medium"),
+       url("../fonts/PlusJakartaSans-Medium.woff2") format('woff2'),
+       url("../fonts/PlusJakartaSans-Medium.woff") format('woff'),
+       url("../fonts/PlusJakartaSans-Medium.eot") format('eot');
+  font-display: swap;
+}
+@font-face {
+  font-family: "PlusJakartaSans";
+  font-weight: 400;
+  font-style: normal;
+  src: local("PlusJakartaSans Regular"),
+    local("PlusJakartaSans-Regular"),
+       url("../fonts/PlusJakartaSans-Regular.woff2") format('woff2'),
+       url("../fonts/PlusJakartaSans-Regular.woff") format('woff'),
+       url("../fonts/PlusJakartaSans-Regular.eot") format('eot');
+  font-display: swap;
+}
+@font-face {
+  font-family: "PlusJakartaSans";
+  font-weight: 700;
+  font-style: normal;
+  src: local("PlusJakartaSans Bold"),
+    local("PlusJakartaSans-Bold"),
+       url("../fonts/PlusJakartaSans-Bold.woff2") format('woff2'),
+       url("../fonts/PlusJakartaSans-Bold.woff") format('woff'),
+       url("../fonts/PlusJakartaSans-Bold.eot") format('eot');
+  font-display: swap;
+}
+@font-face {
+  font-family: "PlusJakartaSans";
+  font-weight: 800;
+  font-style: normal;
+  src: local("PlusJakartaSans ExtraBold"),
+    local("PlusJakartaSans-ExtraBold"),
+       url("../fonts/PlusJakartaSans-ExtraBold.woff2") format('woff2'),
+       url("../fonts/PlusJakartaSans-ExtraBold.woff") format('woff'),
+       url("../fonts/PlusJakartaSans-ExtraBold.eot") format('eot');
+  font-display: swap;
+}

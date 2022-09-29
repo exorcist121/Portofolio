@@ -1,0 +1,16 @@
+body{
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: space-around;
+}
+a{
+  font-size: 46px;
+  margin-right: 10px;
+  transition: all .3s;
+}
+a:hover{
+  transform: scale(1.1);
+  color: aqua;
+}
