@@ -12,35 +12,39 @@ $(function () {
     $('.directions__btn').removeClass('directions__btn--active')
     $(this).addClass('directions__btn--active')
   })
+  $('.directions__btn').on('click', function () {
+    $('.directions__btn').removeClass('directions__btn--active')
+    $(this).addClass('directions__btn--active')
+  })
 
   $('.team__slider').slick({
-    arrows: false,
     slidesToShow: 4,
-    infinite: true,
+    arrows: false,
     draggable: false,
+    infinite: true,
     waitForAnimate: false,
-    responsive:
-      [
-        {
-          breakpoint: 1100,
-          settings: {
-            slidesToShow: 3,
-          },
-        },
-        {
-          breakpoint: 750,
-          settings: {
-            slidesToShow: 2,
-          },
-        },
-        {
-          breakpoint: 550,
-          settings: {
-            slidesToShow: 1,
-            draggable: true,
-          },
-        },
-      ]
+    // responsive:
+    //   [
+    //     {
+    //       breakpoint: 1100,
+    //       settings: {
+    //         slidesToShow: 3,
+    //       },
+    //     },
+    //     {
+    //       breakpoint: 750,
+    //       settings: {
+    //         slidesToShow: 2,
+    //       },
+    //     },
+    //     {
+    //       breakpoint: 550,
+    //       settings: {
+    //         slidesToShow: 1,
+    //         draggable: true,
+    //       },
+    //     },
+    //   ]
   })
   $('.team__slider-prev').on('click', function (e) {
     e.preventDefault()
@@ -51,29 +55,29 @@ $(function () {
     $('.team__slider').slick('slickNext')
   })
 
-//   $('.testimonials__slider').slick({
-//     arrows: false,
-//     dots: true,
-//     appendDots: $('.testimonials__dots'),
-//     waitForAnimate: false,
-//     // responsive:
-//     //   [
-//     //     {
-//     //       breakpoint: 700,
-//     //       settings: {
+  $('.testimonials__slider').slick({
+    arrows: false,
+    dots: true,
+    appendDots: $('.testimonials__dots'),
+    waitForAnimate: false,
+    // responsive:
+    //   [
+    //     {
+    //       breakpoint: 700,
+    //       settings: {
 
-//     //       },
-//     //     },
-//     //   ]
-//   })
-//   $('.testimonials__prev').on('click', function (e) {
-//     e.preventDefault()
-//     $('.testimonials__slider').slick('slickPrev')
-//   })
-//   $('.testimonials__next').on('click', function (e) {
-//     e.preventDefault()
-//     $('.testimonials__slider').slick('slickNext')
-//   })
+    //       },
+    //     },
+    //   ]
+  })
+  $('.testimonials__prev').on('click', function (e) {
+    e.preventDefault()
+    $('.testimonials__slider').slick('slickPrev')
+  })
+  $('.testimonials__next').on('click', function (e) {
+    e.preventDefault()
+    $('.testimonials__slider').slick('slickNext')
+  })
 
 //   $('.program__acc-link').on('click', function (e) {
 //     e.preventDefault()
