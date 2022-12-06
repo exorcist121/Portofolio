@@ -1,97 +1,97 @@
 @font-face {
-  font-family: "Gilroy";
+  font-family: 'Gilroy';
   font-weight: 700;
   font-style: normal;
   src: 
-  local("Gilroy"),
+  local('Gilroy'),
   url("../fonts/Gilroy-Bold.woff2") format('woff2'),
   url("../fonts/Gilroy-Bold.woff") format('woff'),
   url("../fonts/Gilroy-Bold.eot") format('eot');
 font-display: swap;
 }
 @font-face {
-  font-family: "magnolia";
+  font-family: 'magnolia';
   font-weight: 400;
   font-style: normal;
   src: 
-  local("magnolia"),
+  local('magnolia'),
   url("../fonts/magnolia-script-regular.woff2") format('woff2'),
   url("../fonts/magnolia-script-regular.woff") format('woff'),
   url("../fonts/magnolia-script-regular.eot") format('eot');
 font-display: swap;
 }
 @font-face {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-weight: 700;
   font-style: normal;
   src: 
-  local("Montserrat"),
+  local('Montserrat'),
   url("../fonts/Montserrat-Bold.woff2") format('woff2'),
   url("../fonts/Montserrat-Bold.woff") format('woff'),
   url("../fonts/Montserrat-Bold.eot") format('eot');
 font-display: swap;
 }
 @font-face {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-weight: 600;
   font-style: normal;
   src: 
-  local("Montserrat"),
+  local('Montserrat'),
   url("../fonts/Montserrat-SemiBold.woff2") format('woff2'),
   url("../fonts/Montserrat-SemiBold.woff") format('woff'),
   url("../fonts/Montserrat-SemiBold.eot") format('eot');
 font-display: swap;
 }
 @font-face {
-  font-family: "Nunito";
+  font-family: 'Nunito';
   font-weight: 700;
   font-style: normal;
   src: 
-  local("Nunito"),
+  local('Nunito'),
   url("../fonts/Nunito-Bold.woff2") format('woff2'),
   url("../fonts/Nunito-Bold.woff") format('woff'),
   url("../fonts/Nunito-Bold.eot") format('eot');
 font-display: swap;
 }
 @font-face {
-  font-family: "Nunito";
+  font-family: 'Nunito';
   font-weight: 500;
   font-style: normal;
   src: 
-  local("Nunito"),
+  local('Nunito'),
   url("../fonts/Nunito-Medium.woff2") format('woff2'),
   url("../fonts/Nunito-Medium.woff") format('woff'),
   url("../fonts/Nunito-Medium.eot") format('eot');
 font-display: swap;
 }
 @font-face {
-  font-family: "OpenSans";
+  font-family: 'OpenSans';
   font-weight: 700;
   font-style: normal;
   src: 
-  local("OpenSans"),
+  local('OpenSans'),
   url("../fonts/OpenSans-Bold.woff2") format('woff2'),
   url("../fonts/OpenSans-Bold.woff") format('woff'),
   url("../fonts/OpenSans-Bold.eot") format('eot');
 font-display: swap;
 }
 @font-face {
-  font-family: "OpenSans";
+  font-family: 'OpenSans';
   font-weight: 400;
   font-style: normal;
   src: 
-  local("OpenSans"),
+  local('OpenSans'),
   url("../fonts/OpenSans-Regular.woff2") format('woff2'),
   url("../fonts/OpenSans-Regular.woff") format('woff'),
   url("../fonts/OpenSans-Regular.eot") format('eot');
 font-display: swap;
 }
 @font-face {
-  font-family: "Bebas";
+  font-family: 'Bebas';
   font-weight: 400;
   font-style: normal;
   src: 
-  local("Bebas"),
+  local('Bebas'),
   url("../fonts/BebasNeue.woff2") format('woff2'),
   url("../fonts/BebasNeue.woff") format('woff'),
   url("../fonts/BebasNeue.eot") format('eot');
