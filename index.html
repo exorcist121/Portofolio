@@ -1,19 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/style.css">
-  <title>Portfolio</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Portfolio</title>
 </head>
+
 <body>
-  <a href="sites/Finsweet/index.html">Finsweet</a>
-  <a href="sites/BuhOne/index.html">BuhOne</a>
-  <a href="sites/WD/index.html">WD</a>
-  <a href="sites/OJJO/index.html">OJJO</a>
-  <a href="sites/Dinary/index.html">Dinery</a>
-  <a href="sites/Createx/index.html">Createx</a>
+	<div class="wrapper">
+		<header class="header" id="home">
+			<div class="header__top">
+				<div class="container">
+					<div class="header__top-inner">
+						<ul class="header__nav">
+							<li class="header__nav-item">
+								<a href="#home" class="header__nav-link is-active lang-home">Home</a>
+							</li>
+							<li class="header__nav-item">
+								<a href="#about" class="header__nav-link lang-about">About me</a>
+							</li>
+							<li class="header__nav-item">
+								<a href="#skills" class="header__nav-link lang-skl">Skills</a>
+							</li>
+							<li class="header__nav-item">
+								<a href="#portfolio" class="header__nav-link lang-portfolio">Portfolio</a>
+							</li>
+							<li class="header__nav-item">
+								<a href="#contacts" class="header__nav-link lang-contacts">Contacts</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="header__body">
+				<div class="container">
+					<div class="header__body-inner">
+						<div class="header__heading">
+							<h1 class="header__heading-tittle tittle lang-name">
+								Daniel<br>
+								Komarenko
+							</h1>
+							<p class="header__heading-text text-location lang-en">
+								Frontend-Developer<br>
+								22 years old, Moscow
+							</p>
+							<p class="header__heading-text text-location lang-ru">
+								Веб-разработчик<br>
+								22 years old, Moscow
+							</p>
+							<div class="header__heading-langues">
+								<button class="header__heading-item" value="ru">RU</button>
+								<span>|</span>
+								<button class="header__heading-item is-active" value="en">ENG</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main>
+			<section class="about" id="about">
+				<div class="container">
+					<div class="about__content">
+						<h2 class="about__tittle tittle lang-about-tittle">About me</h2>
+						<div class="about__text text-location">
+							<p class="about__text-paragraph lang-about-text1">
+								Hi, I'm Daniel – Frontend-developer from Moscow.<br>
+								I'm interested in development and everything connected with it.
+							</p>
+							<p class="about__text-paragraph lang-about-text2">
+								I have been working in the field of Web-Development<br>
+								for more than three years.
+							</p>
+							<p class="about__text-paragraph lang-about-text3">
+								Ready to implement excellent projects<br>
+								with wonderful people.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="skills" id="skills">
+				<div class="container">
+					<h3 class="skills__tittle tittle lang-skl-tittle">Skills</h3>
+					<p class="skills__text text-location lang-skl-text">I work in such programs as</p>
+					<div class="skills__slider">
+						<div class="skills__slider-slide">
+							<img src="" alt="" class="skills__slider-img">
+							<p class="skills__slider-tittle"></p>
+							<div class="skills__slider-stars"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="portfolio" id="portfolio">
+				<div class="container">
+					<h4 class="portfolio__tittle tittle lang-portfolio-tittle">Portfolio</h4>
+					<ul class="portfolio__works">
+						<li class="portfolio__works-item">
+							<a href="sites/OJJO/index.html" class="portfolio__works-link">
+								<img src="img/ojjo.png" alt="">
+							</a>
+						</li>
+						<li class="portfolio__works-item">
+							<a href="sites/Finsweet/index.html" class="portfolio__works-link">
+								<img src="img/finsweet.png" alt="">
+							</a>
+						</li>
+						<li class="portfolio__works-item">
+							<a href="sites/Dinery/index.html" class="portfolio__works-link">
+								<img src="img/dinery.png" alt="">
+							</a>
+						</li>
+						<li class="portfolio__works-item">
+							<a href="sites/BuhOne/index.html" class="portfolio__works-link">
+								<img src="img/buhone.png" alt="">
+							</a>
+						</li>
+						<li class="portfolio__works-item">
+							<a href="sites/WD/index.html" class="portfolio__works-link">
+								<img src="img/wd.png" alt="">
+							</a>
+						</li>
+						<li class="portfolio__works-item">
+							<a href="sites/Makheev/index.html" class="portfolio__works-link">
+								<img src="img/makheev.png" alt="">
+							</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+		</main>
+		<footer class="footer" id="contacts">
+			<div class="footer__contacts">
+				<div class="container">
+					<div class="footer__contacts-inner">
+						<h5 class="footer__contacts-tittle tittle lang-contacts-tittle">Contacts</h5>
+						<p class="footer__contacts-text text-location lang-contacts-text">
+							Want to know more or just chat?<br>
+							You are welcome!
+						</p>
+						<a class="footer__contacts-button lang-contacts-btn" href="https://t.me/ExorcistQWE" target="_blank">Send message</a>
+					</div>
+				</div>
+			</div>
+			<div class="footer__socials">
+				<div class="container">
+					<ul class="footer__socials-ul">
+						<li class="footer__socials-item">
+							<a class="footer__socials-link" href="https://vk.com/va11hall_a">
+								<img src="img/icons/vk.svg" alt="VK">
+							</a>
+						</li>
+						<li class="footer__socials-item">
+							<a class="footer__socials-link" href="https://t.me/ExorcistQWE">
+								<img src="img/icons/telegram.svg" alt="Telegram">
+							</a>
+						</li>
+						<li class="footer__socials-item">
+							<a class="footer__socials-link" href="https://wa.me/89605727685" title="12exorcist12@gmail.com" target="_blank">
+								<img src="img/icons/whatsapp.png" alt="WhatsApp">
+							</a>
+						</li>
+						<li class="footer__socials-item">
+							<a class="footer__socials-link" href="mailto:12exorcist12@gmail.com" title="12exorcist12@gmail.com" target="_blank">
+								<img src="img/icons/email.png" alt="Gmail">
+							</a>
+						</li>
+					</ul>
+					<p class="footer__socials-text text-location lang-socials-text">
+						Like me on<br>
+						VK, Telegram, WhatsApp, Gmail
+					</p>
+				</div>
+			</div>
+		</footer>
+	</div>
 </body>
+<script src="js/main.js"></script>
 </html>

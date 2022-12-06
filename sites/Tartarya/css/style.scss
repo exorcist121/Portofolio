@@ -1,0 +1,254 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+  line-height: inherit;
+  font-size: inherit;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+// reset default styles
+$white: #FFFFFF;
+$black: #1E212C;
+$maxWidth: 1260;
+@mixin adaptiv-values($property, $pcSizeP, $mobSizeP) {
+  $addSize: $pcSizeP - $mobSizeP;
+  #{$property}: $pcSizeP + px;
+  @media (max-width: #{$maxWidth + px}) {
+    #{$property}: calc(#{$mobSizeP + px} + #{$addSize} * ((100vw - 320px) / #{($maxWidth - 320)}));
+  }
+}
+body {
+  font-family: Lato, sans-serif;
+  color: #424551;
+  line-height: 1.6;
+  font-weight: 400;
+  @include adaptiv-values(font-size, 16, 13);
+}
+%button {
+  font-weight: 700;
+  @include adaptiv-values(padding-right, 40, 10);
+  @include adaptiv-values(padding-left, 40, 10);
+  line-height: 52px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  color: $white;
+  background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+  border-radius: 4px;
+  white-space: nowrap;
+}
+%subtittle {
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: $black;
+  margin-bottom: 8px;
+}
+%tittle {
+  font-weight: 900;
+  @include adaptiv-values(font-size, 46, 24);
+  line-height: 1.3;
+  color: $black;
+}
+.wrapper {
+  min-height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.container {
+  max-width: 1550px;
+  padding: 0 15px;
+  margin: 0 auto;
+  height: 100%;
+}
+.overlay {
+}
+.header {
+}
+.header__top {
+}
+.header__top-nav {
+}
+.header__nav-item {
+}
+.header__top-links {
+}
+.header__top-link {
+}
+.header__top-btns {
+}
+.header__btns-link {
+}
+.header__limiter-box {
+}
+.limiter-left {
+}
+.limiter-right {
+}
+.header__content {
+}
+.header__content-start {
+}
+.header__start-tittle {
+}
+.header__start-btn {
+}
+.header__start-text {
+}
+.header__content-news {
+}
+.header__news-item {
+}
+.header__news-text {
+}
+.header__news-date {
+}
+.main {
+}
+.call {
+}
+.call__play {
+}
+.call__play-tittle {
+}
+.call__play-text {
+}
+.call__play-btn {
+}
+.call__content {
+}
+.call__content-tabs {
+}
+.calls__tabs-nav {
+}
+.calls-tabs-item {
+}
+.call__tabs-content {
+}
+.call__tabs-text {
+}
+.call__tabs-link {
+}
+.call__content-bonuses {
+}
+.call__bonuses-item {
+}
+.about {
+}
+.about__inner {
+}
+.about__follow {
+}
+.about__follow-tittle {
+}
+.about__follow-box {
+}
+.about__voting {
+}
+.about__voting-tittle {
+}
+.about__voting-box {
+}
+.about__topics {
+}
+.about__topics-tittle {
+}
+.about__topics-box {
+}
+.about__limiter-box {
+}
+.footer {
+}
+.footer__ul {
+}
+.footer__ul-item {
+}
+.footer__item-link {
+}

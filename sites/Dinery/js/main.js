@@ -14,15 +14,16 @@ $(function () {
     $(this).toggleClass('header__nav-link--arrowup')
   });
   $('.users__slider').slick({
-    arrows:false,
+		arrows:false,
     slidesToShow:1,
-    infinite: true,
     draggable:false,
     dots:true,
-    waitForAnimate: false,
+    verticalSwiping: true,
     touchMove:true,
     dots:true,
+		autoplay: true,
     adaptiveheight:true,
+    infinite: true,
   })
   })
 
