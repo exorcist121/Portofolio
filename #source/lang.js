@@ -1,23 +1,23 @@
 const langArr = {
 	"home": {
 			"ru": "главная",
-			"en": "home",
+			"en": "Home",
 	}, 
 	"about": {
 			"ru": "обо мне",
-			"en": "about me",
+			"en": "About me",
 	}, 
 	"skl": {
 			"ru": "навыки",
-			"en": "skills",
+			"en": "Skills",
 	}, 
 	"portfolio": {
 			"ru": "портфолио",
-			"en": "portfolio",
+			"en": "Portfolio",
 	}, 
 	"contacts": {
 			"ru": "контакты",
-			"en": "contacts",
+			"en": "Contacts",
 	}, 
 	"name": {
 			"ru": "Даниил<br>Комаренко",
@@ -29,7 +29,7 @@ const langArr = {
 	}, 
 	"about-tittle": {
 		"ru": "обо мне",
-		"en": "about me",
+		"en": "About me",
 }, 
 	"about-text1": {
 		"ru": "",
@@ -69,6 +69,6 @@ const langArr = {
 }, 
 "socials-text": {
 	"ru": "",
-	"en": "Like me on<br>VK, Telegram, WhatsApp, Gmail",
+	"en": "Like me on<br>VK, Telegram, Gmail",
 }, 
 }
