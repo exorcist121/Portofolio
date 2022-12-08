@@ -111,19 +111,36 @@ body, html{
 	}
 }
 .skills {
+	padding: 90px 0px 100px;
 	&__tittle {
+		margin-bottom: 70px;
 	}
 	&__text {
+		margin-bottom: 80px;
 	}
 }
 .skills__slider {
+	display: flex;
+	justify-content: space-between;
 	&-slide {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		max-width: 200px;
+		min-height: 160px;
 	}
 	&-img {
+		max-width: 90px;
+		max-height: 90px;
 	}
 	&-tittle {
+		font-family: $bold;
+		color: $grey;
+		font-size: 14px;
+		text-align: center;
 	}
 	&-stars {
+		height: 30px;
 	}
 }
 .portfolio {
