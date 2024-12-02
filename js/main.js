@@ -91,8 +91,8 @@ const langArr = {
 	"en": "Finsweet - Landing Page",
 }, 
 "portfolio-link-2": {
-	"ru": "BuhOne - лендинг",
-	"en": "BuhOne - Landing Page",
+	"ru": "Createx - лендинг",
+	"en": "Createx - Landing Page",
 }, 
 "portfolio-link-3": {
 	"ru": "OJJO - Домашняя страница",
@@ -118,7 +118,7 @@ const langArr = {
 	"ru": "Махеев - лендинг",
 	"en": "Makheev - Landing Page",
 }, 
-"portfolio-link-8": {
+"portfolio-link-9": {
 	"ru": "JBI - лендинг",
 	"en": "JBI - Landing Page",
 }, 
