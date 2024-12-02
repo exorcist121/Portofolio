@@ -87,28 +87,40 @@ const langArr = {
 	"en": "Tilda sites",
 }, 
 "portfolio-link-1": {
-	"ru": "OJJO - Домашняя страница",
-	"en": "OJJO - Home Page",
-}, 
-"portfolio-link-2": {
 	"ru": "Finsweet - лендинг",
 	"en": "Finsweet - Landing Page",
 }, 
-"portfolio-link-3": {
-	"ru": "Dinery - лендинг",
-	"en": "Dinery - Landing Page",
-}, 
-"portfolio-link-4": {
+"portfolio-link-2": {
 	"ru": "BuhOne - лендинг",
 	"en": "BuhOne - Landing Page",
 }, 
+"portfolio-link-3": {
+	"ru": "OJJO - Домашняя страница",
+	"en": "OJJO - Home Page",
+}, 
+"portfolio-link-4": {
+	"ru": "Dinery - лендинг",
+	"en": "Dinery - Landing Page",
+}, 
 "portfolio-link-5": {
+	"ru": "BuhOne - лендинг",
+	"en": "BuhOne - Landing Page",
+}, 
+"portfolio-link-6": {
 	"ru": "Персональный лендинг-портфолио",
 	"en": "Web - Designer - Landing Page",
 }, 
-"portfolio-link-6": {
+"portfolio-link-7": {
+	"ru": "WoW Random - лендинг",
+	"en": "WoW Random - Landing Page ",
+}, 
+"portfolio-link-8": {
 	"ru": "Махеев - лендинг",
 	"en": "Makheev - Landing Page",
+}, 
+"portfolio-link-8": {
+	"ru": "JBI - лендинг",
+	"en": "JBI - Landing Page",
 }, 
 "contacts-tittle": {
 	"ru": "Контакты",
